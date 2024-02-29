@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class AdminModel {
     String username;
     String password;
-    AdminModel(){
+    public AdminModel(){
         username="Deepthi";
         password="Deepthi";
     }

@@ -34,7 +34,9 @@ public class MainController {
     }
 
     @RequestMapping("/admin")
-    public String adminStartPage(){
+    public String adminStartPage(Model model)
+    {
+        model.addAttribute("adminModel",new AdminModel());
         return "adminStart";
     }
 
